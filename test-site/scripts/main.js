@@ -15,7 +15,7 @@ function refresh_date() {
         minutes = '0' + minutes;
     }
     if (seconds < 10) {
-        minutes = '0' + minutes;
+        seconds = '0' + seconds;
     }
     date_time.textContent = hours + ":" + minutes + ":" + seconds;
 }
